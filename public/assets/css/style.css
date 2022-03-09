@@ -1,0 +1,162 @@
+
+
+
+body{
+
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.comm-box {
+    position: relative;
+    margin-top: 2rem;
+  }
+
+  
+.as_comm_box {
+    background: white;
+   border: none;
+    padding: 1.0rem 0;
+  }
+
+  
+.comm-icon {
+    width: 4.0rem;
+    border: none;
+    color: #ffd782;
+    height: 4.0rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    position: relative;
+    transition: all 0.3s linear;
+    font-size: 1.2em;
+    box-shadow: rgba(0, 0, 0, 0.04) .0rem .0rem 1.3rem .0rem;
+
+  }
+
+  .comm-text{
+  color: #ffba3b;
+}
+  .comm-icon:hover{
+    background: linear-gradient(130deg, #ffba3b 0%, #ffd782 100%);
+    color:white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.589);    
+  }
+
+  .textCard{
+    font-size: 0.8rem;
+  }
+
+  .d-block{
+      height: 75vh;
+  }
+
+  .card{
+    background-color: rgb(248, 245, 245); 
+   
+    margin-left: 1.5rem;
+    color: rgb(3, 0, 0);
+
+  }
+  .card-img{
+      width: 25vh;
+      height: 30vh;
+      border: 1px solid rgb(255, 255, 255);
+      margin-left: 1rem;
+  }
+
+  .titleCard{
+    padding-bottom: 1rem;
+  }
+
+  .expoler-box{
+    padding-bottom: 5rem;
+  }
+
+  .as_expoler_box{
+    background: white;
+    border: 1px solid #ffd782;
+    padding: 3rem 0;
+    color: #ffba3b;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.300);    
+
+  }
+
+  .exploreCard{
+    border: none;
+    width: 18rem;
+    background-color: white ;
+    color: #ffba3b;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.300); 
+  }
+
+  .exploreCard:hover{
+    box-shadow: none;
+    color: white;
+    background-color: #ffba3b;
+  }
+
+  .expoler-icon{
+    font-size: 2.0rem;
+    transition: all 0.3s linear;
+    padding-bottom: 1rem;
+  }
+.expoler-text{
+  font-size: 1.5rem;
+}
+  .as_expoler_box:hover{
+    background: linear-gradient(130deg, #ffba3b 0%, #ffd782 100%);
+    color: white;
+    box-shadow: none;
+  }
+
+  .main{
+    margin-bottom: 2rem;
+    padding: 0 15rem; 
+  
+  }
+  .CarouselCard{
+    border: none;
+    width: 80vh;
+    height: 50vh;
+    background-color: white ;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.300);    
+
+  }
+
+  .Headtitle{
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  
+
+  
+.Cardtitle{
+  font-size: 2.0rem;
+}
+
+.CardText{
+  font-size: 1.5rem;
+}
+
+.CardText2{
+  margin-top: -1rem;
+  font-size: 1rem;
+}
+
+  .CaroselImg{
+    width: 30vh;
+    height: 50vh;
+  }
+/* 
+
+
+  .cardContent:hover{
+  box-shadow: 0 0 0 0.25rem rgba(10, 10, 10, 0.767);
+    
+  }
+ */
